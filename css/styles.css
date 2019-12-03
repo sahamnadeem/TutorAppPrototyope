@@ -316,7 +316,17 @@ p.text-white.mt-3 {
     left: 38%;
     padding: 12px;
 }
-
+/*-------------nav bar setting quiry-----------------*/
+div#navbarNavDropdown {
+    float: unset!important;
+    width: 100%;
+}
+button.navbar-toggler {
+    transform: translate(14rem) !important;
+    position: absolute;
+    top: 8px;
+    left: 59%;
+}
 }
 @media (max-width: 425px){
 .tips-text {
@@ -496,6 +506,11 @@ h3.mb-4.mt-5 {
 .bg-light.w-50.p-3 {
     padding: 0rem!important;
 }
+/*-------------nav bar setting quiry-----------------*/
+div#navbarNavDropdown {
+    float: unset!important;
+    width: 100%;
+}
 }
 @media (max-width: 375px){
     .opinion-text {
@@ -530,6 +545,11 @@ h3.mb-4.mt-5 {
 /*---------Forum Detail media quiry  Ali-------*/
 .drive-para {
     font-size: 8px;
+}
+/*-------------nav bar setting quiry-----------------*/
+div#navbarNavDropdown {
+    float: unset!important;
+    width: 100%;
 }
 }
 @media (max-width: 320px){
@@ -582,5 +602,10 @@ button.navbar-toggler {
 /*---------Forum Detail media quiry  Ali-------*/
 .drive-para {
     font-size: 7px;
+}
+/*-------------nav bar setting quiry-----------------*/
+div#navbarNavDropdown {
+    float: unset!important;
+    width: 100%;
 }
 }
