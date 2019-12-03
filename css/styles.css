@@ -511,6 +511,9 @@ div#navbarNavDropdown {
     float: unset!important;
     width: 100%;
 }
+button.navbar-toggler {
+    transform: translate(6rem) !important;
+}
 }
 @media (max-width: 375px){
     .opinion-text {
@@ -578,11 +581,6 @@ div#navbarNavDropdown {
 .prof-img{
     width: 83%!important;
 }
-button.navbar-toggler {
-    transform: translate(14rem) !important;
-    position: absolute;
-    top: 19px;
-}
 .hub-content h1 {
     font-size: 1.5rem;
 }
@@ -607,5 +605,8 @@ button.navbar-toggler {
 div#navbarNavDropdown {
     float: unset!important;
     width: 100%;
+}
+button.navbar-toggler {
+    transform: translate(4rem) !important;
 }
 }
