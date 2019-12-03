@@ -1,0 +1,220 @@
+/*
+  Project Name: DevFolio
+  Author: Asad Mehmood
+  Company: www.oranjeclick.com;
+*/
+
+/*======================================
+//--//-->   STYLES GENERALES
+======================================*/
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+h1{
+	color: #231f20;
+	font-weight: 200 !important;
+	font-size: 2rem;
+	line-height: 1;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #231f20;
+}
+ul{
+  list-style-type: none;
+}
+a {
+  color: #1e1e1e;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0078ff;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+.color-a {
+  color: #60d0ac;
+}
+.top-contact-section{
+	background-color: #60d0ac;
+	color: white;
+	font-size: 1.2rem; 
+}
+.asa{
+	float: right;
+}
+.btn-dark{
+	padding: 15px 16px;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #231f20;
+  border-radius: 10px;
+}
+.hub-content {
+    margin-top: 13rem;
+    margin-left: 17rem;
+}
+.hub-img {
+    margin-top: 9rem;
+    margin-left: 6.9rem;
+    margin-bottom: 13rem;
+}
+.register-text{
+	font-weight: 600;
+	font-size: 24px;
+	margin-left: 50px;
+}
+.couching{
+	text-transform: capitalize;
+	font-weight: 400;
+	line-height: 1;
+	color: #231f20;
+
+}
+.comfort{
+	font-style: italic;
+	font-size: 2rem;
+	font-weight: 200;
+	color: #231f20;
+}
+.tips-text{
+  width: 50%;
+  margin-top: 240px;
+  margin-bottom: 180px;
+  margin-left: 60px;
+  text-transform: capitalize;
+}
+.opinion-text{
+  width: 50%;
+}
+.tips-content{
+  width: 50%;
+  text-transform: capitalize;
+  position: absolute;
+    top: 18%;
+    left: 21%;
+}
+.tips-content input{
+  padding: 26px 5px;
+  width: 80%;
+  margin-top: 30px;
+}
+.btn-dark-email{
+  padding: 13px 26px;
+  font-weight: 600;
+  font-size: 19px;
+  text-transform: uppercase;
+  background-color: #231f20;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  top: 56%;
+  left: 62%;
+}
+.network{
+  width: 30%;
+  text-align: justify;
+  float: right;
+}
+.useanywhere{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.affordable{
+  width: 30%;
+  text-align: justify;
+}
+.testimo-text{
+  font-size: 22px;
+}
+.speaker-bt{
+  border: 2px solid;
+  width: 47%;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: auto;
+  padding: 10px;
+  height: 85px;
+}
+.contact-options-footer ul{
+  font-weight: 500;
+  font-size: 18px;
+}
+.contact-options-footer li{
+  padding: 9px;
+}
+nav li{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.active .nav-link{
+  background-color: #60d0ac;
+  color: white !important;
+  border-radius: 12px;
+  padding: 5px;
+}
+.nav-link:hover{
+  background-color: #60d0ac;
+  color: white !important;
+  border-radius: 12px;
+  padding: 5px;
+}
+.nav-link{
+  font-weight: 600;
+  color: #231f20!important;
+  padding-right: 1rem !important;
+}
+/*---------------------------------------- Forum page starts here  -------------------------------------------*/
+.forum-text{
+  width: 53%;
+  float: right;
+  margin-right: 11rem;
+  margin-top: 6rem;
+}
+.btn-dark-search{
+  padding: 16px 21px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #231f20;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  top: 55%;
+  left: 63%;
+}
+input.forum-search {
+  height: 55px;
+}
+.progress{
+  width: 18%;
+  height: 5px;
+}
+.in-favour-text{
+  width: 50%;
+  background-color: #d75a4a;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  font-size: 2rem;
+}
+.against-text{
+  width: 50%;
+  background-color: #60d0ac;
+  color: white;
+  padding: 10px;
+  font-size: 2rem;
+}
+/*---------------------------------------- Forum page starts here  -------------------------------------------*/

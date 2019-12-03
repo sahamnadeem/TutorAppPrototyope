@@ -1,0 +1,586 @@
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.hero-section{
+	background-image: url(../images/hubbg.png);
+}
+.personalized-coaching img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.speaking-backround{
+	background-image: url(../images/resourcesbg.png);
+	width: 100%;
+}
+.resourcespic{
+	width: 66%;
+    float: right;
+    margin-top: 100px;
+}
+.opinion-pic{
+	width: 65%;
+}
+.tips-section{
+	background-image: url(../images/tipsbg.png);
+}
+.monthlytips-pic{
+	float: right;
+	width: 50%;
+}
+.testi-bg{
+	background-image: url(../images/testimonial-bg.png);
+}
+.social-media img{
+	margin-left:10px;
+	width: 15%;
+}
+.contact-options-footer li img{
+  width:20%;
+}
+
+/*--------------------- Forum page start--------------------*/
+.forum-1st-img img{
+    width: 60%;
+    margin-bottom: 7rem;
+    margin-top: 3rem;
+}
+.drive-imges img{
+    width: 100%;
+}
+.big-img-forum{
+    width: 100%;
+}
+.drive-2 img{
+    width: 100%;
+}
+.prof-box img{
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*--------------------- Forum page end--------------------*/
+
+
+/*--------------------- Resources page end--------------------*/
+.resources-section-bg{
+    background-image: url(../images/resourcesbg.png);
+}
+/*--------------------- Resources page end--------------------*/
+@media (max-width: 1440px){
+    .main-logo{
+        width: 10rem;
+    }
+	.tips-text h1 {
+    font-size: 2rem;
+}
+	.hub-content {
+    margin-top: 11rem;
+    margin-left: 1
+    ;
+}
+.btn-dark {
+    padding: 13px 25px;
+    font-size: 17px;
+}
+/*.hub-img {
+    margin-top: 5rem;
+    margin-left: 0.9rem;
+    margin-bottom: 10rem;
+}*/
+.register-text {
+    font-size: 18px;
+    margin-left: 40px;
+}
+.personalized-coaching img {
+    width: 60%;
+}
+.opinion-text{
+  width: 40%;
+}
+.btn-dark-email {
+    top: 62%;
+    left: 55%;
+}
+.hero-image{
+    width: 75%;
+}
+/*----------Forum page media quiry-------------*/
+.main-card{
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        border-radius: 9px;
+    }
+    .overly-card {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .black-color{
+        background-color: black;
+        opacity: 0.6;
+    }
+    .text-data{
+        position: absolute;bottom: 0;
+        left: 0;
+    }
+/*---------Forum Detail media quiry  Ali-------*/
+/*-------------Forum page Quiry   Additional----------------*/
+.btn-dark-search {
+    top: 46%;
+    left: 37%;
+    padding: 12px;
+}
+input.forum-search {
+    height: 47px;
+    width: 50%!important;
+}
+.forum-text {
+    width: 100%;
+    float: unset!important;
+}
+.forum-1st-img img {
+    width: 100%;
+}
+
+}
+@media (max-width: 1024px){
+.hub-img img{
+	width: 100%;
+}
+.hub-content {
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
+.hub-content h1{
+	font-size: 2rem;
+}
+.tips-text {
+    width: 81%;
+    margin-top: 156px;
+    margin-bottom: 130px;
+    margin-left: 54px;
+    text-transform: capitalize;
+}
+.opinion-text h1{
+	font-size: 2rem;
+}
+.tips-content {
+    width: 71%;
+    text-transform: capitalize;
+    position: absolute;
+    top: 8%;
+    left: 15%;
+}
+.tips-content h1{
+	font-size: 2rem;
+}
+.btn-dark-email {
+    top: 53%;
+    left: 56%;;
+}
+.more-text h1{
+	font-size: 2rem;
+}
+.network {
+	width: 62%;
+}
+.useanywhere {
+    width: 100%;
+}
+.affordable {
+    width: 60%;
+}
+.testi-bg h1{
+	font-size: 2rem;
+}
+.testimo-text{
+  font-size: 18px;
+}
+.speaker-section h1{
+	font-size: 2rem!important;
+}
+.speaker-bt {
+    width: 55%;
+}    
+.contact-options-footer{
+	width:100%!important;
+}
+.contact-options-footer li img {
+    width: 15%;
+}
+/*---------Forum Detail media quiry  Ali-------*/
+/*------------Forum Page Quiry  Additional--------------*/
+.btn-dark-search {
+    top: 58%;
+    left: 34%;
+    padding: 12px;
+}
+
+}
+@media (max-width: 768px){
+.hub-content {
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+.hub-content h1{
+    font-size: 2rem;
+}
+.btn-dark {
+    padding: 14px 12px;
+    font-size: 14px;
+}
+.register-text {
+    font-size: 14px;
+    margin-left: 24px;
+}
+.hub-img {
+    margin-top: 4rem;
+    margin-left: 0.9rem;
+    margin-bottom: 6rem;
+}
+.couching {
+    font-size: 2.5rem;
+}
+.comfort {
+    font-size: 2rem;
+}
+.tips-text h1 {
+    font-size: 2rem;
+}
+.opinion-text h1 {
+    font-size: 2rem;
+}
+.tips-content h1 {
+    font-size: 2rem;
+}
+.btn-dark-email {
+    top: 63%;
+    left: 67%;
+}
+.tips-content input {
+    width: 100%;
+}
+.more-text h1 {
+    font-size: 2rem;
+}
+.network {
+    width: 100%;
+}
+.useanywhere {
+    width: 100%;
+}
+.affordable {
+    width: 100%;
+}
+.testi-bg h1 {
+    font-size: 2rem;
+}
+.testimo-text {
+    font-size: 14px;
+}
+.speaker-section h1 {
+    font-size: 2rem!important;
+}
+.speaker-bt {
+    width: 80%;
+}
+.active .nav-link{
+  background-color: #60d0ac;
+  color: white !important;
+  border-radius: 12px;
+  padding: 5px;
+}
+/*---------Forum Detail media quiry  Ali-------*/
+/*------------Forum Page Quiry   Additional--------------*/
+p.text-white.mt-3 {
+    margin-top: 0.6rem!important;
+}
+.feed-text{
+    font-size: 12px;
+}
+.name-text-eight.text-white.mt-5 {
+    margin-top: 1.5rem!important;
+}
+.btn-dark-search {
+    top: 80%;
+    left: 38%;
+    padding: 12px;
+}
+
+}
+@media (max-width: 425px){
+.tips-text {
+    margin-top: 9px;
+    margin-bottom: 67px;
+}
+.resourcespic {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+}
+.opinion-pic{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hub-content {
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 0rem;
+}
+.couching {
+    font-size: 1.5rem;
+}
+.comfort {
+    font-size: 1rem;
+}
+.tips-content {
+    width: 100%;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 330px;
+    left: 2%;
+}
+.tips-content h1 {
+    font-size: 1rem;
+}
+.tips-content input {
+    width: 60%;
+}
+.btn-dark-email {
+    top: 42%;
+    left: 39%;
+    margin-top: 46px;
+    padding: 16px 25px;
+    font-size: 14px;
+}
+.more-text h1 {
+    font-size: 1.5rem;
+}
+.network img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.affordable img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.speaker-section h1 {
+    font-size: 1.3rem!important;
+}
+.contact-options-footer {
+    width: 100%!important;
+    margin-left: 37px!important;
+    margin-top: 46px!important;
+}
+.social-media.m-auto.w-50 {
+    margin-top: 34px!important;
+}
+.active .nav-link{
+  background-color: #60d0ac;
+  color: white !important;
+  border-radius: 12px;
+  padding: 5px;
+}
+/*--------------Forum page Quiry  Additional--------------*/
+.profile-image {
+    width: 13%!important;
+}
+.colom-margin{
+    margin-top: 1.5rem!important;
+}
+.feed-text{
+    font-size: 15px;
+}
+p.name-text-eight.text-white.mt-5 {
+    margin-top: 0px!important;
+}
+.btn-dark-search {
+    top: 85%;
+    left: 77%;
+    padding: 12px;
+}
+input.forum-search {
+    height: 47px;
+    width: 100%!important;
+}
+.forum-text {
+    width: 100%;
+    float: unset!important;
+}
+.forum-1st-img img {
+    width: 100%;
+}
+/*---------Forum Detail media quiry  Ali-------*/
+img.float-right {
+    float: unset!important;
+    width: 13%;
+    margin-top: 3%;
+}
+h5.font-weight-bolder {
+    position: absolute;
+    bottom: 100%;
+    left: 18%;
+}
+.drive-img{
+    width: 25%!important;
+}
+.drive-heading {
+    font-size: 10px;
+    position: absolute;
+    bottom: 83%;
+    font-weight: bold;
+    left: 4%;
+}
+.drive-para {
+    font-size: 9px;
+    width: 69%;
+    position: absolute;
+    left: 27%;
+    padding: 13px;
+    top: 15%;
+}
+button.btn.btn-dark.post-comment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        font-size: 9px;
+    margin-top: 3rem;
+}
+textarea#comment {
+    position: absolute;
+    bottom: 88%;
+    height: 72px;
+    left: 18%;
+    width: 75%;
+}
+.in-favour-text {
+    padding: 12px;
+    height: 50px;
+    font-size: 1rem;
+}
+.against-text {
+    padding: 12px;
+    height: 50px;
+    font-size: 1rem;
+}
+h3.mb-4.mt-5 {
+    font-size: 15px;
+    text-align: center;
+}
+.text-muted{
+    font-size: 12px;
+}
+.in-favour-text {
+    padding: 12px;
+    height: 50px;
+}
+.bg-light.w-50.text-right.p-3 {
+    padding: 8px!important;
+}
+.bg-light.w-50.p-3 {
+    padding: 0rem!important;
+}
+}
+@media (max-width: 375px){
+    .opinion-text {
+    width: 70%;
+    text-align: center;
+}
+.tips-content {
+    bottom: 300px;
+}
+.active .nav-link{
+  background-color: #60d0ac;
+  color: white !important;
+  border-radius: 12px;
+  padding: 5px;
+}
+.tips-content input {
+    font-size: 9px;
+    padding: 17px;
+}
+.btn-dark-email {
+    left: 42%;
+    padding: 7px 15px;
+}
+/*--------------Forum page Quiry  aDDITIONAL--------------*/
+.colom-margin{
+    margin-top: 1.5rem!important;
+}
+.btn-dark-search {
+    top: 86%;
+    left: 74%;
+}
+/*---------Forum Detail media quiry  Ali-------*/
+.drive-para {
+    font-size: 8px;
+}
+}
+@media (max-width: 320px){
+.main-logo{
+    width: 11rem!important;
+}
+.btn-dark {
+    padding: 7px 7px;
+    font-size: 9px;
+}
+.register-text {
+    font-size: 12px;
+    margin-left: 10px;
+}
+.tips-text h1 {
+    font-size: 1rem;
+}
+.tips-content input {
+    font-size: 9px;
+    padding: 17px;
+}
+.btn-dark-email {
+    left: 38%;
+    padding: 7px 15px;
+}
+.prof-img{
+    width: 83%!important;
+}
+button.navbar-toggler {
+    transform: translate(14rem) !important;
+    position: absolute;
+    top: 19px;
+}
+.hub-content h1 {
+    font-size: 1.5rem;
+}
+/*--------------Forum page Quiry Additional--------------*/
+.colom-margin{
+    margin-top: 1.5rem!important;
+}
+.forum-1st-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-dark-search {
+    top: 87%;
+    left: 69%;
+}
+/*---------Forum Detail media quiry  Ali-------*/
+.drive-para {
+    font-size: 7px;
+}
+}
