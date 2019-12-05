@@ -2,9 +2,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
 }
-
 .hero-section{
 	background-image: url(../images/hubbg.png);
 }
@@ -73,6 +71,11 @@
     background-image: url(../images/resourcesbg.png);
 }
 /*--------------------- Resources page end--------------------*/
+@media (max-width: 1200px){
+    .top-bar{
+        max-width: 1600px;
+    }
+}
 @media (max-width: 1440px){
     .main-logo{
         width: 10rem;
@@ -225,7 +228,6 @@ input.forum-search {
     left: 34%;
     padding: 12px;
 }
-
 }
 @media (max-width: 768px){
 .hub-content {
