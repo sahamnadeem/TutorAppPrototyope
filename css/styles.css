@@ -87,30 +87,38 @@
     }
 }
 @media (max-width: 1440px){
+/*------- login ---------*/
+    .login-box {
+    width: 65%;
+    height: 465px;
+}
+/*------- login ---------*/
     .main-logo{
         width: 10rem;
     }
 	.tips-text h1 {
     font-size: 2rem;
 }
-	.hub-content {
+/*	.hub-content {
     margin-top: 11rem;
     margin-left: 1
     ;
-}
+}*/
 .btn-dark {
-    padding: 13px 25px;
+    /*padding: 13px 25px;*/
     font-size: 17px;
 }
-/*.hub-img {
-    margin-top: 5rem;
-    margin-left: 0.9rem;
-    margin-bottom: 10rem;
-}*/
-.register-text {
+.hub-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12rem;
+    margin-bottom: 13rem;
+}
+/*.register-text {
     font-size: 18px;
     margin-left: 40px;
-}
+}*/
 .personalized-coaching img {
     width: 60%;
 }
@@ -167,6 +175,12 @@ input.forum-search {
 
 }
 @media (max-width: 1024px){
+/*------- login ---------*/
+    .login-box {
+    width: 80%;
+    height: 460px;
+}
+/*------- login ---------*/
 .hub-img img{
 	width: 100%;
 }
@@ -231,6 +245,10 @@ input.forum-search {
 .contact-options-footer li img {
     width: 15%;
 }
+.btn-dark{
+        padding: 16px 29px;
+    font-size: 13px;
+}
 /*---------Forum Detail media quiry  Ali-------*/
 /*------------Forum Page Quiry  Additional--------------*/
 .btn-dark-search {
@@ -240,6 +258,14 @@ input.forum-search {
 }
 }
 @media (max-width: 768px){
+    /*------- login ---------*/
+    .login-box {
+    width: 93%;
+    height: 460px;
+    background-color: white;
+    padding: 50px;
+}
+    /*------- login ---------*/
 .hub-content {
     margin-top: 5rem;
     margin-left: 2rem;
@@ -341,6 +367,11 @@ button.navbar-toggler {
 }
 }
 @media (max-width: 425px){
+/*-------- login ----------*/
+.img-strt{
+    margin-top: 25px!important;
+}
+/*-------- login ----------*/
 .tips-text {
     margin-top: 9px;
     margin-bottom: 67px;

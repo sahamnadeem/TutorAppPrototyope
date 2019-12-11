@@ -59,8 +59,7 @@ a:hover {
   border-radius: 10px;
 }
 .hub-content {
-    margin-top: 13rem;
-    margin-left: 17rem;
+    margin-top: 18rem;
 }
 .hub-img {
     margin-top: 9rem;
@@ -68,9 +67,8 @@ a:hover {
     margin-bottom: 13rem;
 }
 .register-text{
-	font-weight: 600;
-	font-size: 24px;
-	margin-left: 50px;
+	font-weight: 400;
+	font-size: 20px;
 }
 .couching{
 	text-transform: capitalize;
@@ -246,13 +244,14 @@ input.forum-search {
 
 /*---------------------------------------- Login page starts here  -------------------------------------------*/
 .login-box{
-  width: 100%;
+  width: 50%;
   height: 500px;
   background-color: white;
   padding: 50px;
 }
 .btn-default-login{
-  padding: 8px 99px;
+  /*padding: 8px 99px;*/
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
