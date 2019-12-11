@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -7,10 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <title>Resources</title>
     <!-- Custom css styles -->
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/Custom.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
@@ -18,17 +19,130 @@
       <div class="container-fluid">
         <div class="container">
           <div class="row">
-          <div class="col-md-6">
-            <h1 class="font-weight-bolder mt-5">Resources</h1>
-          </div>
-          <div class="col-md-6">
-            <img src="images/resourcesmain.png">
+            <div class="col-md-6 mt-5">
+              <h1 class="font-weight-bolder mt-5">Resources</h1>
+              <p class="mr-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="col-md-6 mt-5">
+              <img class="w-75 resourxs-img" src="images/resourcesmain.png">
+            </div>
           </div>
         </div>
-        </div>
-        
       </div>
     </section>
+    <!-- Tabs -->
+    <section id="tabs" class="project-tab mt-5" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"  style="border-bottom: 2px solid grey">
+            <h3>Product</h3>
+          </div>
+          <div class="col-md-6"  style="border-bottom: 2px solid grey">
+            <nav>
+              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Vedio</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Books</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Paper/Documents</a>
+              </div>
+            </nav>
+          </div>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-hometab">
+              <!-- ---------------------------------------- Row  ------------------------------------------->
+             <div class="row">
+               <div class="col-md-4">
+                 <img class="w-100 mt-3 p-5" src="images/book.png">
+                 <h5 class="text-muted text-center">Title of Book here</h5>
+                 <h4 class="text-center">$50</h4>
+               </div>
+               <div class="col-md-4">
+                 <img class="w-100 mt-3 p-5" src="images/book.png">
+                 <h5 class="text-muted text-center">Title of Book here</h5>
+                 <h4 class="text-center">$50</h4>
+               </div>
+               <div class="col-md-4">
+                 <img class="w-100 mt-3 p-5" src="images/book.png">
+                 <h5 class="text-muted text-center">Title of Book here</h5>
+                 <h4 class="text-center">$50</h4>
+
+               </div>
+             </div>
+             <!-- ---------------------------------------- Row  ------------------------------------->
+             <div class="row">
+               <div class="col-md-4">
+                 <img class="w-100 mt-3 p-5" src="images/book.png">
+                 <h5 class="text-muted text-center">Title of Book here</h5>
+                 <h4 class="text-center">$50</h4>
+
+               </div>
+               <div class="col-md-4">
+                 <img class="w-100 mt-3 p-5" src="images/book.png">
+                 <h5 class="text-muted text-center">Title of Book here</h5>
+                 <h4 class="text-center">$50</h4>
+
+               </div>
+               <div class="col-md-4">
+                 <img class="w-100 mt-3 p-5" src="images/book.png">
+                 <h5 class="text-muted text-center">Title of Book here</h5>
+                 <h4 class="text-center">$50</h4>
+
+               </div>
+             </div>
+             <!-- ---------------------------------------- Row  ------------------------------------->
+             <div class="row">
+               <div class="col-md-4">
+                 <img class="w-100 mt-3 p-3" src="images/video.png">
+                 <h5 class="text-muted text-center">Title of video here</h5>
+                 <h4 class="text-center">$50</h4>
+
+               </div>
+               <div class="col-md-4">
+                 <img class="w-100 mt-3 p-3" src="images/video.png">
+                 <h5 class="text-muted text-center">Title of video here</h5>
+                 <h4 class="text-center">$50</h4>
+
+               </div>
+               <div class="col-md-4">
+                 <img class="w-100 mt-3 p-3" src="images/video.png">
+                 <h5 class="text-muted text-center">Title of video here</h5>
+                 <h4 class="text-center">$50</h4>
+
+               </div>
+             </div>
+             <!-- ---------------------------------------- Row  ------------------------------------->
+           </div>
+           <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            South Africa
+          </div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            South Koria
+          </div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            Australia
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- ./Tabs -->
+  <section class="res-sec-2 mb-5 bg-image">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <img class="w-100 p-5" src="images/resourcespic.png">
+        </div>
+        <div class="col-md-6">
+          <div class="tips-text-2">
+            <h1>
+              Do you have a resource you would like to share
+            </h1>
+            <button class="btn-dark mt-3">Find out now</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>  
 
 
     <!-- Optional JavaScript -->

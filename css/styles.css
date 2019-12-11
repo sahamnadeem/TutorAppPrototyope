@@ -71,6 +71,16 @@
     background-image: url(../images/resourcesbg.png);
 }
 /*--------------------- Resources page end--------------------*/
+/*--------------------- login page start--------------------*/
+/*.login-page{
+    background-image: url(../images/bg.png);
+}*/
+.logo-login{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*--------------------- login page end--------------------*/
 @media (max-width: 1200px){
     .top-bar{
         max-width: 1600px;
