@@ -60,10 +60,10 @@ a:hover {
   border:none;
 }
 .hub-content {
-    margin-top: 18rem;
+    margin-top: 13rem;
 }
 .hub-img {
-    margin-top: 9rem;
+    margin-top: 3rem;
     margin-left: 6.9rem;
     margin-bottom: 13rem;
 }
@@ -142,7 +142,29 @@ a:hover {
   font-size: 21px;
   font-weight: 600;
   text-transform: uppercase;
+  margin-left: auto;
+  padding: 10px;
+  height: 85px;
+}
+.speaker-bt-1{
+  border: 2px solid;
+  width: 47%;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  text-transform: uppercase;
   margin: auto;
+  padding: 10px;
+  height: 85px;
+}
+.speaker-bt-2{
+  border: 2px solid;
+  width: 47%;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  margin-right: auto;
+  text-transform: uppercase;
   padding: 10px;
   height: 85px;
 }
@@ -180,7 +202,7 @@ nav li{
   width: 53%;
   float: right;
   margin-right: 11rem;
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 .btn-dark-search{
   padding: 16px 21px;
@@ -191,8 +213,8 @@ nav li{
   border-radius: 10px;
   color: white;
   position: absolute;
-  top: 55%;
-  left: 63%;
+      top: 70%;
+    left: 55%;
 }
 input.forum-search {
   height: 55px;

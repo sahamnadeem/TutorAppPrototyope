@@ -5,6 +5,7 @@
 }
 .hero-section{
 	background-image: url(../images/hubbg.png);
+    background-size: 100% 100%;
 }
 .personalized-coaching img{
 	display: block;
@@ -13,7 +14,7 @@
 }
 .speaking-backround{
 	background-image: url(../images/resourcesbg.png);
-	width: 100%;
+	background-size: 100% 100%;
 }
 .resourcespic{
 	width: 66%;
@@ -25,6 +26,8 @@
 }
 .tips-section{
 	background-image: url(../images/tipsbg.png);
+    background-size: 100% 100%;
+
 }
 .monthlytips-pic{
 	float: right;
@@ -32,6 +35,7 @@
 }
 .testi-bg{
 	background-image: url(../images/testimonial-bg.png);
+    background-size: 100% 100%;
 }
 .social-media img{
 	margin-left:10px;
@@ -68,9 +72,15 @@
 
 /*--------------------- Resources page end--------------------*/
 .resources-section-bg{
+    background-image: url(../images/hubbg.png);
+    background-size: 100% 100%;
+}
+.res-sec-2{
     background-image: url(../images/resourcesbg.png);
+    background-size: 100% 100%;
 }
 /*--------------------- Resources page end--------------------*/
+
 /*--------------------- login page start--------------------*/
 /*.login-page{
     background-image: url(../images/bg.png);
@@ -115,10 +125,10 @@
 }
 .reachout-sec{
     background-image: url(../images/reachoutbg.png);
-    background-size: cover;
+    background-size:100% 100%;
     background-position: center, fixed;
     background-repeat: no-repeat;
-    height: 100vh;
+    padding: 5px;
 }
 /*--------------------- Pricing page end--------------------*/
 @media (max-width: 1200px){
@@ -225,8 +235,8 @@ input.forum-search {
 	width: 100%;
 }
 .hub-content {
-    margin-top: 10rem;
-    margin-left: 6rem;
+       margin: auto;
+    margin-top: 50px;
 }
 .hub-content h1{
 	font-size: 2rem;
@@ -277,8 +287,14 @@ input.forum-search {
 	font-size: 2rem!important;
 }
 .speaker-bt {
-    width: 55%;
-}    
+    width: auto;
+}   
+.speaker-bt-1 {
+    width: auto;
+} 
+.speaker-bt-2 {
+    width: auto;
+}  
 .contact-options-footer{
 	width:100%!important;
 }
@@ -307,8 +323,8 @@ input.forum-search {
 }
     /*------- login ---------*/
 .hub-content {
-    margin-top: 5rem;
-    margin-left: 2rem;
+       margin: auto;
+    margin-top: 50px;
 }
 .hub-content h1{
     font-size: 2rem;
@@ -370,7 +386,13 @@ input.forum-search {
     font-size: 2rem!important;
 }
 .speaker-bt {
-    width: 80%;
+    width: auto;
+}
+.speaker-bt-1 {
+    width: auto;
+}
+.speaker-bt-2 {
+    width: auto;
 }
 .active .nav-link{
   background-color: #60d0ac;
@@ -429,9 +451,8 @@ button.navbar-toggler {
     margin-left: auto;
 }
 .hub-content {
-    margin-top: 2rem;
-    text-align: center;
-    margin-left: 0rem;
+    margin: auto;
+    margin-top: 50px;
 }
 .couching {
     font-size: 1.5rem;
@@ -599,6 +620,11 @@ button.navbar-toggler {
 }
 }
 @media (max-width: 375px){
+    .tips-text-2{
+  width: 100%;
+  margin-top: 0px!important;
+  margin: 0 auto;
+}
     .opinion-text {
     width: 70%;
     text-align: center;
