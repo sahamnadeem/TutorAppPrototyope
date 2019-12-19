@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/steps.css"/>
+    <link rel="stylesheet" href="css/steps.css" />
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <title>Student request</title>
 </head>
@@ -21,420 +21,454 @@
         <div class="container-fluid ">
             <div class="row">
                 <!---------------------------------------------------------Colloum 1-------------------------------------------->
-                <div class="col-md-2" style=" padding: 0!important; overflow: hidden;  ">
-                    <div class="bg-main " style="height: auto;">
-                        <div class="text-center pt-3">
-                            <img src="images/logo white.png" width="150">
+                <div class="col-md-2 p-0 overflow-hidden">
+                    <div class="affix">
+                        <div class="bg-main h-50 ">
+                            <div class="text-center pt-3">
+                                <img src="images/logo white.png" width="150">
+                            </div>
+                            <hr style="border-top: 2px solid white;">
+                            <div class="text-center mt-1">
+                                <img src="images/profileavatar.png">
+                                <a href="profile.html" style="text-decoration: none;">
+                                    <p class="text-white mt-2">John Doe</p>
+                                </a>
+                            </div>
+                            <div class="text-center mt-3">
+                                <a href="profile.html" style="text-decoration: none;"> <img src="images/settings.png"
+                                        width="21"></a>
+                                <img class="ml-2 " src="images/logout.png" width="19">
+                            </div>
+                            <div class="text-center">
+                                <button class="btn default1 mt-4 mb-5" data-toggle="modal"
+                                    data-target="#exampleModalCenter">Find Tutor</button>
+                            </div>
                         </div>
-                        <hr style="border-top: 1px solid white;">
-                        <div class="text-center mt-1">
-                            <img src="images/profileavatar.png">
-                            <p class="text-white mt-2">John Doe</p>
-                        </div>
-                        <div class="text-center mt-3">
-                            <img src="images/settings.png" width="21">
-                            <img class="ml-2 " src="images/logout.png" width="19">
-                        </div>
-                        <div class="text-center">
-                            <button class="btn default1 mt-4 mb-5" data-toggle="modal" data-target="#exampleModalCenter">Find Tutor</button>
-                        </div>
-                    </div>
-                    <div class="mt-4" style="height: auto; ">
-                        <div class="row hovBg  pt-2 justify-content-center">
-                            <div class="col-2">
-                                <img src="images/homecolored.png" width="25">
+                        <div class="mt-4 h-50">
+                            <a class="text-decoration-none" href="home.html">
+                                <div class="row hovBg  pt-2 justify-content-center">
+                                    <div class="col-2">
+                                        <i class="fas fa-home"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="pt-1 pb-1">Home</h5>
+                                    </div>
 
-                            </div>
-                            <div class="col-8">
-                                <h5 class="mt-1 ">Home</h5>
-                            </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="coaching.html">
+                                <div class="row hovBg  pt-2 justify-content-center">
+                                    <div class="col-2">
+                                        <i class="far fa-id-card"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="pt-1 pb-1">Coaching</h5>
+                                    </div>
 
-                        </div>
-                        <div class="row hovBg  pt-3 justify-content-center">
-                            <div class="col-2">
-                                <img src="images/-e-coaching.png" width="25">
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="resorces.html">
+                                <div class="row hovBg pt-2 justify-content-center">
+                                    <div class="col-2">
+                                        <i class="fas fa-suitcase"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="pt-1 pb-1 ">My Resources</h5>
+                                    </div>
 
-                            </div>
-                            <div class="col-8">
-                                <h5 class="mt-1">Tutor</h5>
-                            </div>
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="index.html">
+                                <div class="row hovBg  pt-2 justify-content-center">
+                                    <div class="col-2">
+                                        <i class="far fa-copy"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="pt-1 pb-1">My Posts</h5>
+                                    </div>
 
-                        </div>
-                        <div class="row hovBg pt-3 justify-content-center">
-                            <div class="col-2">
-                                <img src="images/resources.png" width="25">
+                                </div>
+                            </a>
+                            <a class="text-decoration-none" href="dashboard-session.html">
+                                <div class="row hovBg  pt-2 justify-content-center">
+                                    <div class="col-2">
+                                        <i class="fas fa-book"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="pt-1 pb-1">Session History</h5>
+                                    </div>
 
-                            </div>
-                            <div class="col-8">
-                                <h5 class="mt-1 ">My Resources</h5>
-                            </div>
-
-                        </div>
-                        <div class="row hovBg  pt-3 justify-content-center">
-                            <div class="col-2">
-                                <img src="images/instagram.png" width="25">
-
-                            </div>
-                            <div class="col-8">
-                                <h5 class="mt-1">My Posts</h5>
-                            </div>
-
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <!-------------------------------------------------------------colloum2------------------------------------------->
                 <div class="col-md-10 bg-light">
-                    <div class="container " >
-                            <div class="row">
-                                    <div class="col-md-3">
-                                            <div class="row mt-3  ">
-                                                       <form>
-                                                           <input class="margin-search top-search-bar2" type="text" name="search2"
-                                                               placeholder="Search for students...">
-                                                       </form>
-                                                        
-                                                   </div>         
-                                    </div>
-                                    <div class="col-md-3">
-                                            <div class="row mt-3 bg-white shadow-card mr-2 ">
-                                                  <h6 class=" ml-3 custom-font">Available on</h6>
-                                                  <span style="margin-left: 6.5rem;"><img class="p-1" src="images/calender (2).png" width="67%"></span>
-                                            </div>
-                                        </div>
-                                    <div class="col-md-4">
-                                            <div class="row mt-3 ">
-                                                    <select class="form-control shadow-card" style="width: 80%;">
-                                                            <option>Public Speaking</option>
-                                                            <option>student</option>
-                                                        </select>
-                                            </div>
-                                        </div>
-                                    <div class="col-md-1">
-                                        <div class="row mt-3 ">
-                                            <form>
-                                                <input class="margin-search top-search-bar3" type="text" name="search"
-                                                    placeholder="Search...">
-                                            </form>
-                                        </div>
-                                    </div>
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="row mt-3   ">
+                                    <form>
+                                        <input class="margin-search top-search-bar2 border-curve " type="text"
+                                            name="search2" placeholder="Search for students...">
+                                    </form>
+
                                 </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="row mt-3 bg-white shadow-card mr-2 border-curve">
+                                    <h6 class=" ml-3 custom-font">Available on</h6>
+                                    <span style="display: block; margin-left:auto;"><img class="p-1"
+                                            src="images/calender (2).png" width="64%"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row mt-3 ">
+                                    <select class="form-control shadow-card border-curve" style="width: 80%;">
+                                        <option>Public Speaking</option>
+                                        <option>student</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-1">
+                                <div class="row mt-3 ">
+                                    <form>
+                                        <input class="margin-search top-search-bar3" type="text" name="search"
+                                            placeholder="Search...">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                         <!--------------------------------------------------------------1st card-------------------------->
                         <div class="row mt-5">
                             <div class="container">
-                                    <div class="bg-white shadow-card" style="border-radius: 14px;">
-                                        <div class="row">
-                                            <div class="col-md-2">
-                                                <img src="images/Rectangle 1.png" width="100%" >
+                                <div class="bg-white shadow-card" style="border-radius: 14px;">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="images/Rectangle 1.png" width="100%">
+
+                                        </div>
+                                        <div class="col-md-2 p-4">
+                                            <h4 class="text-center font-weight-bold mt-2">John Doe</h4>
+                                            <h6 class="text-center">public speaker</h6>
+                                        </div>
+                                        <div class="col-md-3 p-2">
+                                            <h4 class="text-center font-weight-bold mt-2">Availabality Days</h4>
+                                            <h6 class="text-center">Monday</h6>
+                                            <h6 class="text-center">Tuesday</h6>
+                                            <h6 class="text-center">Wednesday</h6>
+                                        </div>
+                                        <div class="col-md-2 p-4">
+                                            <div class="text-center mt-3" style="font-size: 12px;">
+                                                <span class="fas fa-star checked "></span>
+                                                <span class="fas fa-star checked "></span>
+                                                <span class="fas fa-star  checked"></span>
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
+                                                <br>
+                                                <span>51 views</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 p-2">
+                                            <div class="text-center mt-def">
+                                                <button class="btn default3"> Accept</button>
+                                                <button class="btn default4"> Reject</button>
 
                                             </div>
-                                            <div class="col-md-2 p-4" >
-                                                <h4 class="text-center font-weight-bold mt-2">John Doe</h4>
-                                                <h6 class="text-center">public speaker</h6>
-                                            </div>
-                                            <div class="col-md-3 p-2">
-                                                    <h4 class="text-center font-weight-bold mt-2">Availabality Days</h4>
-                                                    <h6 class="text-center">Monday</h6>
-                                                    <h6 class="text-center">Tuesday</h6>
-                                                    <h6 class="text-center">Wednesday</h6>
-                                                </div>
-                                                <div class="col-md-2 p-4">
-                                                        <div class="text-center mt-3" style="font-size: 12px;" >
-                                                                <span class="fas fa-star checked "></span>
-                                                                <span class="fas fa-star checked "></span>
-                                                                <span class="fas fa-star  checked"></span>
-                                                                <span class="far fa-star"></span>
-                                                                <span class="far fa-star"></span>
-                                                                <br>
-                                                                <span>51 views</span>
-                                                              </div>
-                                                    </div>
-                                                    <div class="col-md-3 p-2">
-                                                        <div class="text-center mt-def">
-                                                        <button class="btn default3"> Accept</button>
-                                                        <button class="btn default4"> Reject</button>
-
-                                                    </div>
-                                                    </div>
                                         </div>
                                     </div>
+                                </div>
                             </div>
 
                         </div>
                         <!--------------------------------------------------------------2nd card-------------------------->
                         <div class="row mt-3">
-                                <div class="container">
-                                        <div class="bg-white shadow-card" style="border-radius: 14px;">
-                                            <div class="row">
-                                                <div class="col-md-2">
-                                                    <img src="images/Rectangle 1.png" width="100%" >
-    
-                                                </div>
-                                                <div class="col-md-2 p-4" >
-                                                    <h4 class="text-center font-weight-bold mt-2">John Doe</h4>
-                                                    <h6 class="text-center">public speaker</h6>
-                                                </div>
-                                                <div class="col-md-3 p-2">
-                                                        <h4 class="text-center font-weight-bold mt-2">Availabality Days</h4>
-                                                        <h6 class="text-center">Monday</h6>
-                                                        <h6 class="text-center">Tuesday</h6>
-                                                        <h6 class="text-center">Wednesday</h6>
-                                                    </div>
-                                                    <div class="col-md-2 p-4">
-                                                            <div class="text-center mt-3" style="font-size: 12px;" >
-                                                                    <span class="fas fa-star checked "></span>
-                                                                    <span class="fas fa-star checked "></span>
-                                                                    <span class="fas fa-star  checked"></span>
-                                                                    <span class="far fa-star"></span>
-                                                                    <span class="far fa-star"></span>
-                                                                    <br>
-                                                                    <span>51 views</span>
-                                                                  </div>
-                                                        </div>
-                                                        <div class="col-md-3 p-2">
-                                                            <div class="text-center mt-def">
-                                                            <button class="btn default3"> Accept</button>
-                                                            <button class="btn default4"> Reject</button>
-    
-                                                        </div>
-                                                        </div>
+                            <div class="container">
+                                <div class="bg-white shadow-card" style="border-radius: 14px;">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="images/Rectangle 1.png" width="100%">
+
+                                        </div>
+                                        <div class="col-md-2 p-4">
+                                            <h4 class="text-center font-weight-bold mt-2">John Doe</h4>
+                                            <h6 class="text-center">public speaker</h6>
+                                        </div>
+                                        <div class="col-md-3 p-2">
+                                            <h4 class="text-center font-weight-bold mt-2">Availabality Days</h4>
+                                            <h6 class="text-center">Monday</h6>
+                                            <h6 class="text-center">Tuesday</h6>
+                                            <h6 class="text-center">Wednesday</h6>
+                                        </div>
+                                        <div class="col-md-2 p-4">
+                                            <div class="text-center mt-3" style="font-size: 12px;">
+                                                <span class="fas fa-star checked "></span>
+                                                <span class="fas fa-star checked "></span>
+                                                <span class="fas fa-star  checked"></span>
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
+                                                <br>
+                                                <span>51 views</span>
                                             </div>
                                         </div>
+                                        <div class="col-md-3 p-2">
+                                            <div class="text-center mt-def">
+                                                <button class="btn default3"> Accept</button>
+                                                <button class="btn default4"> Reject</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-    
                             </div>
+
+                        </div>
                         <!--------------------------------------------------------------3rdd card-------------------------->
                         <div class="row mt-3">
-                                <div class="container">
-                                        <div class="bg-white shadow-card" style="border-radius: 14px;">
-                                            <div class="row">
-                                                <div class="col-md-2">
-                                                    <img src="images/Rectangle 1.png" width="100%" >
-    
-                                                </div>
-                                                <div class="col-md-2 p-4" >
-                                                    <h4 class="text-center font-weight-bold mt-2">John Doe</h4>
-                                                    <h6 class="text-center">public speaker</h6>
-                                                </div>
-                                                <div class="col-md-3 p-2">
-                                                        <h4 class="text-center font-weight-bold mt-2">Availabality Days</h4>
-                                                        <h6 class="text-center">Monday</h6>
-                                                        <h6 class="text-center">Tuesday</h6>
-                                                        <h6 class="text-center">Wednesday</h6>
-                                                    </div>
-                                                    <div class="col-md-2 p-4">
-                                                            <div class="text-center mt-3" style="font-size: 12px;" >
-                                                                    <span class="fas fa-star checked "></span>
-                                                                    <span class="fas fa-star checked "></span>
-                                                                    <span class="fas fa-star  checked"></span>
-                                                                    <span class="far fa-star"></span>
-                                                                    <span class="far fa-star"></span>
-                                                                    <br>
-                                                                    <span>51 views</span>
-                                                                  </div>
-                                                        </div>
-                                                        <div class="col-md-3 p-2">
-                                                            <div class="text-center mt-def">
-                                                            <button class="btn default3"> Accept</button>
-                                                            <button class="btn default4"> Reject</button>
-    
-                                                        </div>
-                                                        </div>
+                            <div class="container">
+                                <div class="bg-white shadow-card" style="border-radius: 14px;">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="images/Rectangle 1.png" width="100%">
+
+                                        </div>
+                                        <div class="col-md-2 p-4">
+                                            <h4 class="text-center font-weight-bold mt-2">John Doe</h4>
+                                            <h6 class="text-center">public speaker</h6>
+                                        </div>
+                                        <div class="col-md-3 p-2">
+                                            <h4 class="text-center font-weight-bold mt-2">Availabality Days</h4>
+                                            <h6 class="text-center">Monday</h6>
+                                            <h6 class="text-center">Tuesday</h6>
+                                            <h6 class="text-center">Wednesday</h6>
+                                        </div>
+                                        <div class="col-md-2 p-4">
+                                            <div class="text-center mt-3" style="font-size: 12px;">
+                                                <span class="fas fa-star checked "></span>
+                                                <span class="fas fa-star checked "></span>
+                                                <span class="fas fa-star  checked"></span>
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
+                                                <br>
+                                                <span>51 views</span>
                                             </div>
                                         </div>
+                                        <div class="col-md-3 p-2">
+                                            <div class="text-center mt-def">
+                                                <button class="btn default3"> Accept</button>
+                                                <button class="btn default4"> Reject</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-    
                             </div>
+
+                        </div>
                         <!--------------------------------------------------------------4th card-------------------------->
                         <div class="row mt-3">
-                                <div class="container">
-                                        <div class="bg-white shadow-card" style="border-radius: 14px;">
-                                            <div class="row">
-                                                <div class="col-md-2">
-                                                    <img src="images/Rectangle 1.png" width="100%" >
-    
-                                                </div>
-                                                <div class="col-md-2 p-4" >
-                                                    <h4 class="text-center font-weight-bold mt-2">John Doe</h4>
-                                                    <h6 class="text-center">public speaker</h6>
-                                                </div>
-                                                <div class="col-md-3 p-2">
-                                                        <h4 class="text-center font-weight-bold mt-2">Availabality Days</h4>
-                                                        <h6 class="text-center">Monday</h6>
-                                                        <h6 class="text-center">Tuesday</h6>
-                                                        <h6 class="text-center">Wednesday</h6>
-                                                    </div>
-                                                    <div class="col-md-2 p-4">
-                                                            <div class="text-center mt-3" style="font-size: 12px;" >
-                                                                    <span class="fas fa-star checked "></span>
-                                                                    <span class="fas fa-star checked "></span>
-                                                                    <span class="fas fa-star  checked"></span>
-                                                                    <span class="far fa-star"></span>
-                                                                    <span class="far fa-star"></span>
-                                                                    <br>
-                                                                    <span>51 views</span>
-                                                                  </div>
-                                                        </div>
-                                                        <div class="col-md-3 p-2">
-                                                            <div class="text-center mt-def">
-                                                            <button class="btn default3"> Accept</button>
-                                                            <button class="btn default4"> Reject</button>
-    
-                                                        </div>
-                                                        </div>
+                            <div class="container">
+                                <div class="bg-white shadow-card" style="border-radius: 14px;">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="images/Rectangle 1.png" width="100%">
+
+                                        </div>
+                                        <div class="col-md-2 p-4">
+                                            <h4 class="text-center font-weight-bold mt-2">John Doe</h4>
+                                            <h6 class="text-center">public speaker</h6>
+                                        </div>
+                                        <div class="col-md-3 p-2">
+                                            <h4 class="text-center font-weight-bold mt-2">Availabality Days</h4>
+                                            <h6 class="text-center">Monday</h6>
+                                            <h6 class="text-center">Tuesday</h6>
+                                            <h6 class="text-center">Wednesday</h6>
+                                        </div>
+                                        <div class="col-md-2 p-4">
+                                            <div class="text-center mt-3" style="font-size: 12px;">
+                                                <span class="fas fa-star checked "></span>
+                                                <span class="fas fa-star checked "></span>
+                                                <span class="fas fa-star  checked"></span>
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
+                                                <br>
+                                                <span>51 views</span>
                                             </div>
                                         </div>
+                                        <div class="col-md-3 p-2">
+                                            <div class="text-center mt-def">
+                                                <button class="btn default3"> Accept</button>
+                                                <button class="btn default4"> Reject</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-    
                             </div>
+
+                        </div>
                         <!--------------------------------------------------------------5th card-------------------------->
                         <div class="row mt-3 mb-5">
-                                <div class="container">
-                                        <div class="bg-white shadow-card" style="border-radius: 14px;">
-                                            <div class="row">
-                                                <div class="col-md-2">
-                                                    <img src="images/Rectangle 1.png" width="100%" >
-    
-                                                </div>
-                                                <div class="col-md-2 p-4" >
-                                                    <h4 class="text-center font-weight-bold mt-2">John Doe</h4>
-                                                    <h6 class="text-center">public speaker</h6>
-                                                </div>
-                                                <div class="col-md-3 p-2">
-                                                        <h4 class="text-center font-weight-bold mt-2">Availabality Days</h4>
-                                                        <h6 class="text-center">Monday</h6>
-                                                        <h6 class="text-center">Tuesday</h6>
-                                                        <h6 class="text-center">Wednesday</h6>
-                                                    </div>
-                                                    <div class="col-md-2 p-4">
-                                                            <div class="text-center mt-3" style="font-size: 12px;" >
-                                                                    <span class="fas fa-star checked "></span>
-                                                                    <span class="fas fa-star checked "></span>
-                                                                    <span class="fas fa-star  checked"></span>
-                                                                    <span class="far fa-star"></span>
-                                                                    <span class="far fa-star"></span>
-                                                                    <br>
-                                                                    <span>51 views</span>
-                                                                  </div>
-                                                        </div>
-                                                        <div class="col-md-3 p-2">
-                                                            <div class="text-center mt-def">
-                                                            <button class="btn default3"> Accept</button>
-                                                            <button class="btn default4"> Reject</button>
-    
-                                                        </div>
-                                                        </div>
+                            <div class="container">
+                                <div class="bg-white shadow-card" style="border-radius: 14px;">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="images/Rectangle 1.png" width="100%">
+
+                                        </div>
+                                        <div class="col-md-2 p-4">
+                                            <h4 class="text-center font-weight-bold mt-2">John Doe</h4>
+                                            <h6 class="text-center">public speaker</h6>
+                                        </div>
+                                        <div class="col-md-3 p-2">
+                                            <h4 class="text-center font-weight-bold mt-2">Availabality Days</h4>
+                                            <h6 class="text-center">Monday</h6>
+                                            <h6 class="text-center">Tuesday</h6>
+                                            <h6 class="text-center">Wednesday</h6>
+                                        </div>
+                                        <div class="col-md-2 p-4">
+                                            <div class="text-center mt-3" style="font-size: 12px;">
+                                                <span class="fas fa-star checked "></span>
+                                                <span class="fas fa-star checked "></span>
+                                                <span class="fas fa-star  checked"></span>
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
+                                                <br>
+                                                <span>51 views</span>
                                             </div>
                                         </div>
+                                        <div class="col-md-3 p-2">
+                                            <div class="text-center mt-def">
+                                                <button class="btn default3"> Accept</button>
+                                                <button class="btn default4"> Reject</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-    
                             </div>
+
+                        </div>
                         <!---------------------------------------------------------------------------------Login detail tab-->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-	  <div class="modal-content  w-75 ml-5" style="border-radius: 25px;">
-		<div class="modal-header">
-		  <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">&times;</span>
-		  </button>
-		</div>
-		<div class="modal-body">
-			<div class="container">
-				<div class="row ">
-					<div class="col-md-12">
-							<div class=" form-register" action="#" method="post">
-									<div id="form-total">
-										<!-- SECTION 1 -->
-										<h1></h1>
-										<section >
-											<div class="row justify-content-center mt-4">
-												<div class="col-md-12">
-												<h5 class="text-center  text-muted" style="font-size: 16px;">What would you like to be matched with a coach</h5>
-												<div class="form-group mt-3">
-														<textarea class="form-control" id="message-text" style="background-color:#ccc;"> </textarea>
-													  </div>
-											</div>
-											
-											</div>
-											
-										</section>
-										<!-- SECTION 2 -->
-										<h1></h1>
-										<section>
-												<div class="row justify-content-center">
-														<div class="col-md-12 mt-3">
-														<h5 class="text-center  text-muted" style="font-size: 16px;">Do you have any experience with public speaking or debate? if so please explain</h5>
-														<div class="form-group mt-3">
-																<textarea class="form-control" id="message-text" style="background-color:#ccc;"> </textarea>
-															  </div>
-													</div>
-													
-													</div>
-										</section>
-										<!-- SECTION 3 -->
-										<h1></h1>
-										<section>
-												<div class="row justify-content-center">
-														<div class="col-md-12 mt-4">
-														<h5 class="text-center  text-muted" style="font-size: 16px;">What would you like to be matched with a coach</h5>
-														<div class="form-group mt-3">
-																<textarea class="form-control" id="message-text" style="background-color:#ccc; " placeholder="Enter your Message"> </textarea>
-															  </div>
-													</div>
-													
-													</div>
-										</section>
-										
-									</div>
-								</div>
-								<div id="lastmodal" style="display: none;" >
-								<div class="text-center">
-									<img class="mt-1" src="images/tick mark.png" >
-								</div>
-								<h5 class="text-center text-muted mt-4" style="font-size: 16px;">You are almost done!</h5>
-                        <div class="text-center">
-                            <button class="btn default3 mt-5 mb-4">Select payment plan</button>
-                        </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content  w-75 ml-5" style="border-radius: 25px;">
+                <div class="modal-header">
+                    <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-md-12">
+                                <div class=" form-register" action="#" method="post">
+                                    <div id="form-total">
+                                        <!-- SECTION 1 -->
+                                        <h1></h1>
+                                        <section>
+                                            <div class="row justify-content-center mt-4">
+                                                <div class="col-md-12">
+                                                    <h5 class="text-center  text-muted" style="font-size: 16px;">What
+                                                        would you like to be matched with a coach</h5>
+                                                    <div class="form-group mt-3">
+                                                        <textarea class="form-control" id="message-text"
+                                                            style="background-color:#ccc;"> </textarea>
+                                                    </div>
+                                                </div>
 
+                                            </div>
+
+                                        </section>
+                                        <!-- SECTION 2 -->
+                                        <h1></h1>
+                                        <section>
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-12 mt-3">
+                                                    <h5 class="text-center  text-muted" style="font-size: 16px;">Do you
+                                                        have any experience with public speaking or debate? if so please
+                                                        explain</h5>
+                                                    <div class="form-group mt-3">
+                                                        <textarea class="form-control" id="message-text"
+                                                            style="background-color:#ccc;"> </textarea>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </section>
+                                        <!-- SECTION 3 -->
+                                        <h1></h1>
+                                        <section>
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-12 mt-4">
+                                                    <h5 class="text-center  text-muted" style="font-size: 16px;">What
+                                                        would you like to be matched with a coach</h5>
+                                                    <div class="form-group mt-3">
+                                                        <textarea class="form-control" id="message-text"
+                                                            style="background-color:#ccc; "
+                                                            placeholder="Enter your Message"> </textarea>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </section>
+
+                                    </div>
+                                </div>
+                                <div id="lastmodal" style="display: none;">
+                                    <div class="text-center">
+                                        <img class="mt-1" src="images/tick mark.png">
+                                    </div>
+                                    <h5 class="text-center text-muted mt-4" style="font-size: 16px;">You are almost
+                                        done!</h5>
+                                    <div class="text-center">
+                                        <button class="btn default3 mt-5 mb-4">Select payment plan</button>
+                                    </div>
+
+                                </div>
                             </div>
-							</div>
-				</div>
-			</div>
-			
-		</div>
-		
-	  </div>
-	</div>
-  </div>
+                        </div>
+                    </div>
 
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	<script src="js/jquery.steps.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery.steps.js"></script>
     <script src="js/main.js"></script>
-	<script>
-		$( document ).ready(function() {
-			$("#form-total-t-1").click(function(){
-				// alert("The paragraph was clicked.");
-                $( "div.actions" ).children().css( 'display', "inline-block" );
+    <!--steps-->
+    <script>
+        $(document).ready(function () {
+            $("#form-total-t-1").click(function () {
+                // alert("The paragraph was clicked.");
+                $("div.actions").children().css('display', "inline-block");
             });
-            
-            $('a[href^="#finish"]').click(function(){
+
+            $('a[href^="#finish"]').click(function () {
                 $("#form-total").hide();
-            $("#lastmodal").show();
+                $("#lastmodal").show();
             });
-		})
-		
-	</script>
+        })
+
+    </script>
 </body>
 
 </html>

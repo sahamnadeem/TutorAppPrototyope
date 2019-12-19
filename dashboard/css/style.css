@@ -21,6 +21,9 @@ h5{
 h6{
 	font-size: .67em;
 }
+.h7{
+  font-size: .55em !important ;
+}
 p{
     font-size: 14px ;
 }
@@ -32,14 +35,14 @@ p{
     color: #69d2b1;
     padding: 4px 16px;
     font-size: 14px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); 
 
 }.default2{
     background-color: #69d2b1;
     color: white;
     padding: 4px 16px;
     font-size: 14px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); 
 }
 .default3{
     background-color: #69d2b1;
@@ -60,7 +63,7 @@ p{
 	width: 100%;
   border: none;
   border-radius: 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); 
   font-size: 13px; 
   background-repeat: no-repeat;
   padding: 5px 9px 8px 53px;
@@ -77,7 +80,7 @@ p{
   width: 100%;
   border: none;
   border-radius: 3px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); 
   font-size: 14px; 
   background-repeat: no-repeat;
   padding: 8px 9px 8px 43px;
@@ -91,7 +94,7 @@ p{
     width: 100%;
     border: none;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); 
     font-size: 14px; 
     background-repeat: no-repeat;
     padding: 8px 9px 8px 33px;
@@ -109,7 +112,7 @@ p{
     margin-left: 1.5rem !important;
 }
 .shadow-card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); 
 }
 .like-text{
     font-size: 13px;
@@ -160,9 +163,9 @@ p{
      
      /* cemra tag on profileimage */
      .img-position{
-        position: relative; 
-        top: 40px;
-        right: 40px;
+        position: absolute; 
+        top: 58%;
+        right: 42%;
      }
      .hovBg{
          background-color: white;
@@ -173,6 +176,14 @@ p{
         background-color: #69d2b1;
         color: white !important;
 
+    }
+    .hovBg a{
+      text-decoration: none;
+      color: #69d2b1 !important;
+    }
+    .hovBg a:hover{
+      text-decoration: none;
+      color: white !important;
     }
     .custom-font{
         font-size: 14px !important;
@@ -196,11 +207,99 @@ p{
   
       .carousel-control-prev-icon {
         background-image: url('../images/left-arow.png') !important;
+        height: 30px;
+         margin-right: 6rem !important;
+         margin-top: 6rem !important;
        }
        
        .carousel-control-next-icon {
          background-image: url('../images/right-arrow1.png') !important;
+         display: inline-block;
+         width: 20px;
+         height: 30px;
+         margin-left: 6rem !important;
+         margin-top: 6rem !important;
+         background: no-repeat 50%/100% 100%;
        }
+      .image-upload>input {
+        display: none;
+      }
+      .border-curve{
+        border-radius: 25px !important;
+      }
+      .border-b{
+        border-bottom: 2px solid #69d2b1;
+      }
+      .border-l{
+        border-left: 2px solid #69d2b1;
+      }
+      .border-t{
+        border-top: 2px solid #69d2b1;
+      }
+      /*******************************side menu**************************/
+      
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin-top: 8.7rem !important;
+  border-left: 2px solid #69d2b1 !important;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 7px;
+  font-size: 26px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+      /* ******************************side meny end******************* */
+      @media (max-width: 1300px) {
+     
+        .img-position{
+            position: absolute; 
+            top: 62%;
+            right: 42%;
+         }
+        }
+        @media (max-width: 1000px) {
+     
+            .img-position{
+                position: absolute; 
+                top: 62%;
+                right: 37%;
+             }
+            }
       @media (max-width: 576px) {
         .margin-search{
          margin-left: 0.5rem !important;
@@ -209,6 +308,11 @@ p{
             margin-top: 1.1rem !important;
             margin-bottom: 1rem !important;
         }
+        .img-position{
+            position: absolute; 
+            top: 62%;
+            right: 34%;
+         }
         }
         ::-webkit-scrollbar {
             width: 7px;
@@ -231,7 +335,74 @@ p{
             float:left;
            width:1000px;
            overflow-y: auto;
-             height: 430px;
+             height: 534px;
         
         }
+        .pointr{
+          cursor: pointer;
+        }
         
+         /* **********************Dropdown menu******************************** */
+         
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: 4rem;
+  margin-right: 4rem;
+  min-width: 260px;
+  border-radius: 15px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.show {display: block;}
+.pause-position{
+  position: absolute; 
+  top: 108px;
+   left: 95px;
+}
+ /*slik slider  */
+ .slider {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.slick-slide {
+margin: 0px 20px;
+}
+
+.slick-slide img {
+width: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: #69d2b1;
+}
+
+
+.slick-slide {
+transition: all ease-in-out .3s;
+opacity: 1;
+}
+
+.slick-active {
+opacity: 1;
+}
+
+.slick-current {
+opacity: 02;
+}
+/*slik slider end  */
