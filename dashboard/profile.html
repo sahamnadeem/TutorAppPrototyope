@@ -21,7 +21,7 @@
             <div class="row ">
                 <!---------------------------------------------------------Colloum 1-------------------------------------------->
                 <div class="col-md-2 p-0 overflow-hidden">
-                    <div class="affix">
+                    <div class="position-custom">
                         <div class="bg-main h-50 ">
                             <div class="text-center pt-3">
                                 <img src="images/logo white.png" width="150">
@@ -122,73 +122,136 @@
                                     </div>
                                 </div>
                             </div>
-                            <form>
-                                <div class="row justify-content-center ">
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="formGroupExampleInput">First Name</label>
-                                            <input type="text" class="form-control input-bg" id="formGroupExampleInput">
+                            <form onsubmit="return false">
+                                <div id="1stnormal">
+                                    <div class="row justify-content-center mt-4 ">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput">First Name</label>
+                                                <input type="text" class="form-control input-bg"
+                                                    id="formGroupExampleInput" disabled placeholder="John">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="formGroupExampleInput5">Last Name</label>
-                                            <input type="text" class="form-control input-bg"
-                                                id="formGroupExampleInput5">
-                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput5">Last Name</label>
+                                                <input type="text" class="form-control input-bg"
+                                                    id="formGroupExampleInput5" disabled  placeholder="Doe">
+                                            </div>
 
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">Email</label>
+                                                <input type="text" class="form-control input-bg"
+                                                    id="formGroupExampleInput2" disabled  placeholder="johnr@gmail.com">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="formGroupExampleInput3">Password</label> 
+                                                    <input type="password" class="form-control input-bg"
+                                                        id="formGroupExampleInput3" disabled placeholder="*******">
+                                                </div>
+                                        
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <label for="formGroupExampleInput4">Gender</label>
+                                            <select disabled  class="form-control input-bg ">
+                                                <option >Male</option>
+                                                <option>Female</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="formGroupExampleInput8">Role</label>
+                                            <select disabled  class="form-control input-bg">
+                                                <option>teacher</option>
+                                                <option>student</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row justify-content-center ">
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="formGroupExampleInput2">Email</label>
-                                            <input type="text" class="form-control input-bg"
-                                                id="formGroupExampleInput2">
+                                <div id="1stupdate" style="display: none;">
+                                    <div class="row justify-content-center mt-4 ">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput">First Name</label>
+                                                <input type="text" class="form-control input-bg"
+                                                    id="formGroupExampleInput">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput5">Last Name</label>
+                                                <input type="text" class="form-control input-bg"
+                                                    id="formGroupExampleInput5">
+                                            </div>
+
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="formGroupExampleInput6">Confirm Email</label>
-                                            <input type="text" class="form-control input-bg"
-                                                id="formGroupExampleInput6">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">Email</label>
+                                                <input type="text" class="form-control input-bg"
+                                                   disabled id="formGroupExampleInput2"
+                                                   placeholder="john@example.com">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label id="price11" for="formGroupExampleInput3">Password</label>
+                                                <a class="text-decoration-none color-1 margin-link" href="#" onclick="hideElement()" id="passlink">Change password</a>
+                                                <input type="password" disabled class="form-control input-bg"
+                                                    id="formGroupExampleInput11">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row justify-content-center ">
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="formGroupExampleInput3">Password</label>
-                                            <input type="password" class="form-control input-bg"
-                                                id="formGroupExampleInput3">
+                                    <div id="1stpass" style="display: none;">
+                                        <div class="row justify-content-center ">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="formGroupExampleInput9">New Password</label>
+                                                    <input type="password" class="form-control input-bg"
+                                                        id="formGroupExampleInput3">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="formGroupExampleInput10">Confirm Password</label>
+                                                    <input type="password" class="form-control input-bg"
+                                                        id="formGroupExampleInput7">
+                                                </div>
+                                            </div>
+                                        </div></div>
+                                    
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <label for="formGroupExampleInput4">Gender</label>
+                                            <select class="form-control input-bg">
+                                                <option>Male</option>
+                                                <option>Female</option>
+                                            </select>
                                         </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="formGroupExampleInput7">Confirm Password</label>
-                                            <input type="password" class="form-control input-bg"
-                                                id="formGroupExampleInput7">
+                                        <div class="col-md-4">
+                                            <label for="formGroupExampleInput8">Role</label>
+                                            <select class="form-control input-bg">
+                                                <option>teacher</option>
+                                                <option>student</option>
+                                            </select>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="row justify-content-center ">
-                                    <div class="col-md-4">
-                                        <label for="formGroupExampleInput4">Gender</label>
-                                        <select class="form-control input-bg">
-                                            <option>Male</option>
-                                            <option>Female</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <label for="formGroupExampleInput8">Role</label>
-                                        <select class="form-control input-bg">
-                                            <option>teacher</option>
-                                            <option>student</option>
-                                        </select>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <button class="mt-4 mb-5 btn btn-lg btn-size center-btn">UPDATE</button>
+                                    <button id="btn1" class="mt-5 mb-5 btn btn-lg btn-size center-btn"
+                                        onclick=" hideElementZero()">EDIT</button>
+                                        <button id="btn2" class="mt-5 mb-5 btn btn-lg btn-size center-btn"
+                                        onclick=" hideElementZero()" style="display: none;" >UPDATE</button>
                                 </div>
                             </form>
 
@@ -290,6 +353,26 @@
             </div>
         </div>
     </div>
+    <script>
+        function hideElementZero() {
+            document.getElementById('1stnormal').style.display = 'none';
+            document.getElementById('1stupdate').style.display = 'block';
+            document.getElementById('btn1').style.display = 'none';
+            document.getElementById('btn2').style.display = 'block';
+
+
+        }
+        function hideElement() {
+            document.getElementById('1stpass').style.display = 'block';
+            document.getElementById('passlink').style.display = 'none';
+            document.getElementById('price11').innerHTML = 'Old Password';
+            document.getElementById('formGroupExampleInput11').disabled = false;
+
+      
+
+
+        }
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.min.js"></script>

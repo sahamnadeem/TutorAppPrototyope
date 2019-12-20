@@ -22,10 +22,10 @@
             <div class="row">
                 <!---------------------------------------------------------Colloum 1-------------------------------------------->
                 <div class="col-md-2 p-0 overflow-hidden">
-                    <div class="affix">
+                    <div class="position-custom">
                         <div class="bg-main h-50 ">
                             <div class="text-center pt-3">
-                                <img src="images/logo white.png" width="130">
+                                <img src="images/logo white.png" width="150">
                             </div>
                             <hr style="border-top: 2px solid white;">
                             <div class="text-center mt-1">
@@ -90,12 +90,12 @@
                                 </div>
                             </a>
                             <a class="text-decoration-none" href="dashboard-session.html">
-                                <div class="row hovBg  pt-2 justify-content-center">
+                                <div class="row hovBg  pt-2 justify-content-center active-option">
                                     <div class="col-2">
                                         <i class="fas fa-book"></i>
                                     </div>
                                     <div class="col-8">
-                                        <h5 class="pt-1 pb-1">Session History</h5>
+                                        <h5 class="pt-1 pb-1 ">Session History</h5>
                                     </div>
 
                                 </div>
@@ -105,8 +105,8 @@
                 </div>
                 <!-------------------------------------------------------------colloum2------------------------------------------->
                 <div class="col-md-10 bg-light p-0">
-                    <div class="container-fluid ">
-                        <div class="row p-1">
+                    <div class="container-fluid shadow-card">
+                        <div class="row p-1 ">
                             <div class="col-md-4">
                                 <h3 class="color-1 mt-3 font-weight-normal">Dashboard</h3>
                                 <h6 class="color-1">Welcome to the student dashboard</h6>
@@ -291,15 +291,15 @@
                                     <h6 class="text-muted">Effective speech in larger audience</h6>
                                 </div>
                             </div>
-                            <div class="col-md-9">
-                                <div class="row  bg-main p-2">
+                            <div class="col-md-9 position-fixed " style="margin-left: 283px">
+                                <div class="row bg-main p-2" style="width: 86%;" >
                                     <img src="images/profileavatar.png" width="50">
                                     <h4 class="text-white mt-3 ml-3">John Doe</h4>
                                     <i class="fas fa-paperclip text-white ml-auto mr-3 mt-3 pointr"
-                                        onclick="openNav()"></i>
+                                        onclick="call()"></i>
                                 </div>
                                 <div class="row bg-light p-2">
-                                    <img class="ml-3" src="images/videothumbnail.png" width="auto">
+                                    <img class="ml-3 " src="images/videothumbnail.png" width="auto">
                                     <img class="pause-position" src="images/playwhite.png" width="auto">
                                     <h5 class="text-center mt-4 ml-4">Session recording <br> Duration 59:50</h5>
 
@@ -385,7 +385,7 @@
                                     </div>
                                 </div>
                                 <!------------------------------------------chat box--------------------------->
-                                <div id="main">
+                                <div id="main" style="height: 70vh; overflow: scroll; width: 84%;">
                                     <!-------------1st msg-->
                                     <div class="row justify-content-start p-2 mt-2 ">
                                         <div class="col-4 p-2 border-curve bg-light">
@@ -577,14 +577,25 @@
         }
     </script>
     <script>
+        var callOne = true;
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
-            document.getElementById("main").style.marginRight = "250px";
+            document.getElementById("main").style.marginRight = "410px";
+            document.getElementById("main").style.width = "auto";
+
         }
 
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
             document.getElementById("main").style.marginRight = "0";
+            document.getElementById("main").style.width = "84%";
+
+        }
+
+        function call() {
+            if (callOne) openNav();
+            else closeNav();
+            callOne = !callOne;
         }
     </script>
 
