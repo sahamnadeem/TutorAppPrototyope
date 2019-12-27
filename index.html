@@ -30,7 +30,7 @@
     <div class="container">
       <!-- <div class="row"> -->
         <div class="col-lg-3 col-sm-12 p-0">
-          <a class="navbar-brand" href="">
+          <a class="navbar-brand" href="index.html">
             <img class="main-logo" src="images/logo.png">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
           <div class="collapse navbar-collapse float-right" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="forum.html">Forum</a>
@@ -53,10 +53,10 @@
                       <a class="nav-link" href="pricing.html">Coaching</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="login.html">Login</a>
+                      <a class="nav-link" href="login2.html">Login</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#" style="border: 2px solid #231f20; border-radius: 10px; padding: 3px;">Sign up</a>
+                      <a class="nav-link" href="register.html" style="border: 2px solid #231f20; border-radius: 10px; padding: 3px;">Sign up</a>
                     </li>
                 </ul>
               </div>
@@ -90,7 +90,7 @@
     <section class="personel-coaching-section">
       <div class="container">
         <div class="personalized-coaching mt-5">
-          <img src="images/personalized-coaching.png">
+          <img class="img-fluid" src="images/personalized-coaching.png">
           <div class="personalized-coaching-text text-center">
             <h2 class="couching">personalized couching</h2>
             <p class="comfort">Fr
@@ -104,7 +104,9 @@
       <div class="speaking-backround bg-image">
         <div class="row container-fluid">
           <div class="col-md-6 col-lg-6">
-            <img class="resourcespic" src="images/resourcespic.png">
+            <div class="text-center">
+            <img class="img-fluid"  src="images/resourcespic.png">
+          </div>
           </div>
           <div class="col-md-6 col-lg-6">
             <div class="tips-text">
@@ -117,21 +119,24 @@
     </section>
     <section class="opinion-section mt-5 mb-5">
         <div class="row container-fluid justify-content-center">
-          <div class="col-md-7 mt-3 mb-5">
-           <div class="opinion-text m-auto">
+          <div class="col-md-5 mt-3 mb-5">
+           <div class="opinion-text text-center m-auto">
               <h1 class=" text-capitalize h1">Share your opinion</h1><br>
               <button type="button" class="btn btn-dark">Go to Forum</button>
             </div><br>
           </div>
-          <div class="col-md-5">
-            <img class="opinion-pic" alt="opinion" src="images/opinion.png">
+          <div class="col-md-4 offset-md-1">
+            <div class="text-center">
+            <img class="img-fluid" alt="opinion" src="images/opinion.png">
+          </div>
           </div>
         </div>
     </section>
     <section class="tips-section bg-image">
-      <div class="row container-fluid">
-        <div class="col-md-5">
-          <img class="monthlytips-pic" src="images/monthlytips.png">
+      <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <img class="img-fluid" src="images/monthlytips.png">
         </div>
         <div class="col-md-7">
           <div class="tips-content m-auto">
@@ -143,35 +148,46 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
     <section class="more-reason-section">
+      <div class="container">
       <div class="more-text text-center mt-5 mb-5 text-capitalize">
         <h1>More reasons to choose TalkMaze</h1>
       </div>
-      <div class="row w-100 justify-content-center">
-        <div class="col-md-4">
-          <div class="network">
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="text-center">
             <img src="images/network.png">
             <h4 class="text-uppercase text-center mt-4 mb-4 color-a">Network</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="useanywhere text-center">
+        <div class="col-md-3">
+          <div class="text-center">
           <img src="images/useanywhere.png">
           <h4 class="text-uppercase text-center mt-4 mb-4 color-a">use anywhere</h4>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="affordable">
+        <div class="col-md-3">
+          <div class="text-center">
           <img src="images/affordable.png">
-          <h4 class="text-uppercase text-left mt-4 mb-4 color-a">Affordability</h4>
+          <h4 class="text-uppercase mt-4 mb-4 color-a">Affordability</h4>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
         </div>
-        <button class="btn-dark mt-5 mb-5">become a member</button>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center">
+            <button class="btn-dark mt-5 mb-5">become a member</button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
     </section>
     <section class="testimonial-section">
       <div class="testi-bg bg-image">
@@ -183,7 +199,7 @@
                 <div class="row container-fluid">
                   <div class="col-sm-12">
                     <div class="text-center">
-                      <img class="prof-img" src="images/johndoe.png">
+                      <img class="img-fluid" src="images/johndoe.png">
                     </div>
                   </div>
                 </div>
@@ -200,7 +216,7 @@
                 <div class="row container-fluid">
                   <div class="col-sm-12">
                     <div class="text-center">
-                      <img class="prof-img" src="images/johndoe.png">
+                      <img class="img-fluid" src="images/johndoe.png">
                     </div>
                   </div>
                 </div>
@@ -214,10 +230,10 @@
             </div>
             <div class="carousel-item">
               <div class="container mb-5 p-5">
-                <div class="row">
+                <div class="row container-fluid">
                   <div class="col-sm-12">
                     <div class="text-center">
-                      <img class="prof-img" src="images/johndoe.png">
+                      <img class="img-fluid" src="images/johndoe.png">
                     </div>
                   </div>
                 </div>
@@ -227,7 +243,7 @@
                     <p class=" text-center testimo-text">Well incremented. Comes with recommended workout. I'm using it to help with bladder leakage issues that I've been experiencing since a recent Well incremented. Comes with recommended workout. I'm using it to help with bladder leakage issues that I've been experiencing since a recent Comes with recommended workout. I'm using it to help with bladder leakage issues that I've been experiencing since a recent</p>
                   </div>
                 </div>
-              </div> 
+              </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -265,43 +281,55 @@
     <footer>
       <div class="row container-fluid">
         <div class="col-md-4">
-          <div class="contact-options-footer m-auto w-50">
+          <div class="contact-options-footer ml-5 w-50">
             <ul>
-              <li><img src="images/livechat.png"> Live Chat</li>
+              <li><img  src="images/livechat.png"> Live Chat</li>
               <li><img src="images/callus.png"> Call Us</li>
               <li><img src="images/email.png"> Send an Email</li>
             </ul>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="social-media m-auto w-50">
-            <div class="row justify-content-center mb-4">
-              <img src="images/twitter.png">
+          <div class="social-media text-center mt-3 ">
+            <div class="row justify-content-center mb-2">
+              <img  src="images/twitter.png">
               <img src="images/fb.png">
               <img src="images/instagram.png">
               <img src="images/youtube.png">
             </div>
-            <h5 class="mb-4 text-center">(888)-1111-111</h5>
+            <h5 class="mb-2 text-center">(888)-1111-111</h5>
             <h5 class="text-center">contact@talkmaze.com</h5>
           </div>
         </div>
         <div class="col-md-4">
           <div class="row container-fluid contact-options-footer">
-            <ul>
-              <li>Home</li>
-              <li>about us</li>
-              <li>FAQ</li>
-            </ul>
-            <ul>
-              <li>Forum</li>
-              <li>Resources</li>
-              <li>Coaching</li>
-            </ul>
-            <ul>
-              <li>Partner</li>
-              <li>Shop</li>
-              <li>Jobs</li>
-            </ul>
+            <div class="col-md-4">
+              <div class="text-center">
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+            </div>
+            <div class="col-md-4">
+              <div class="text-center">
+              <ul>
+                <li>Forum</li>
+                <li>Resources</li>
+                <li>Coaching</li>
+              </ul>
+            </div>
+            </div>
+            <div class="col-md-4">
+              <div class="text-center">
+              <ul>
+                <li>Partner</li>
+                <li>Shop</li>
+                <li>Jobs</li>
+              </ul>
+            </div>
+            </div>
           </div>
         </div>
       </div>

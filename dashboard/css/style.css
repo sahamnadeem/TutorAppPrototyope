@@ -30,6 +30,29 @@ p{
 .bg-main{
     background-color: #69d2b1 !important;
 }
+.bg-card-1{
+  background-color: #f5f7fa !important;
+}
+.span-text{
+  font-size: .67em !important;
+  font-weight: bold;
+}
+.comment-box {
+  padding: 0.1rem 0.3rem;
+  border-radius: 25px;
+}
+.comment-box::-webkit-input-placeholder { /* WebKit browsers */
+  font-size: 0.85em;
+
+}
+.padding-custom{
+  padding: 0.1rem;
+}
+.margin-row{
+  margin-left: 0.01rem;
+  margin-right: 0.01rem;
+
+}
 .default1{
     background-color: white;
     color: #69d2b1;
