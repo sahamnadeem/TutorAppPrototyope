@@ -170,7 +170,9 @@ h6{
 .card-width{
     width: 18rem !important;
 }
-
+.hero-image{
+    width: 50%;
+}
 /*--------------------- Pricing page end--------------------*/
 @media (max-width: 1200px){
     .top-bar{
@@ -239,9 +241,7 @@ h6{
     top: 62%;
     left: 55%;
 }
-.hero-image{
-    width: 75%;
-}
+
 /*----------Forum page media quiry-------------*/
 .main-card{
         cursor: pointer;
