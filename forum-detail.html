@@ -117,7 +117,7 @@
             <textarea class="form-control bg-light" placeholder="Type reply to John Doe..." rows="5"
               id="comment"></textarea>
           </div>
-          <button class="btn btn-dark post-comment">Post comment</button>
+          <button class="btn btn-dark post-comment"  data-toggle="modal" data-target="#exampleModalCenterOne">Post comment</button>
         </div>
       </div>
     </div>
@@ -379,7 +379,7 @@
       
     </a>
   </div>
-<!-- Modal -->
+<!-- Modal for start debate -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -391,14 +391,14 @@
       </div>
       <div class="modal-body">
         <h5>Tips on getting good answer quickly?</h5>
-        <ul>
+        <ul style="font-size: 15px;">
           <li>
-            Make sure your question hasn't been asked already
+            Make sure your topic hasn’t already been debated on the forum
           </li>
-          <li>
-            Keep you question short and to the point 
+          <li class="mt-1">
+            Keep your submission short and to the point 
           </li>
-          <li>
+          <li class="mt-1">
             Double-check grammar and spelling
           </li>
         </ul>
@@ -410,6 +410,29 @@
         <img src="images/add_file.png" width="25"><span class="ml-2">please add image relevent to topic</span>
         <br>
         <button class="btn btn-dark mt-5">POST QUESTION</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal For pop Up sign in -->
+<div class="modal fade" id="exampleModalCenterOne" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterOneTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content p-3" style="width: 80%; margin-left: auto; margin-right:auto; display: block;">
+      <div class="modal-header">
+        <h4 class="modal-title ml-auto" id="exampleModalLongTitle">Sign In</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <label class="text-muted h8 font-weight-bolder" >Email/Username</label>
+          <input class="form-control bg-light" type="text" name="email"  style="height: 2.2rem;">
+          <label class="text-muted h8 font-weight-bold">Password</label>
+          <input class="form-control bg-light" type="password" name="pass" style="height: 2.2rem;">
+          <button class="btn btn-default-login mt-5">SEND</button>
+          <a href="register.html"> <h6 class="text-center mt-3 color-a">Create new account?</h6></a>
+        </form>
       </div>
     </div>
   </div>
