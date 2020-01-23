@@ -301,6 +301,9 @@ p{
       .border-t{
         border-top: 2px solid #69d2b1;
       }
+      .border-g{
+        border-top: 2px solid #dedede;
+      }
       .position-custom{
         position: fixed;
         width: 16.66%;
