@@ -23,6 +23,7 @@ h6{
     font-size: 0.77em;
 
 }
+p { word-spacing: -1px;}
 .bg-image {
   background-repeat: no-repeat !important;
   background-position: center !important;
@@ -77,7 +78,12 @@ h6{
 
 /*--------------------- Forum page start--------------------*/
 .forum-1st-img img{
-    width: 60%;
+    width: auto;
+    margin-bottom: 7rem;
+    margin-top: 3rem;
+}
+.forum-1st-img1 img{
+    width: auto;
     margin-bottom: 7rem;
     margin-top: 3rem;
 }
@@ -173,6 +179,26 @@ h6{
 .hero-image{
     width: 50%;
 }
+.hub-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+}
+.personalized-coaching img {
+    width: 50%;
+}
+.text-copy{
+    text-align: right !important;
+}
+.rotate90 {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
 /*--------------------- Pricing page end--------------------*/
 @media (max-width: 1200px){
     .top-bar{
@@ -210,8 +236,8 @@ h6{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 12rem;
-    margin-bottom: 13rem;
+    margin-top: 7rem;
+    margin-bottom: 10rem;
 }
 .hub-img2 {
     display: block;
@@ -232,7 +258,7 @@ h6{
     margin-left: 40px;
 }*/
 .personalized-coaching img {
-    width: 60%;
+    width: 50%;
 }
 .opinion-text{
   width: 40%;
@@ -382,12 +408,27 @@ input.forum-search {
     .navbar-nav .nav-link{
         text-align: center !important;
     }
+    .margin-resp{
+        margin-bottom: 3rem !important;
+    }
+    .rotate90 {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        margin-top: 1.3rem;
+        margin-bottom: 1.3rem;
+    }
     /*------- login ---------*/
     .login-box {
     width: 93%;
     height: 460px;
     background-color: white;
     padding: 50px;
+}
+.text-copy{
+    text-align: center !important;
 }
     /*------- login ---------*/
 .hub-content {
@@ -938,4 +979,26 @@ form.example input[type=text] {
     width: 85px;
     height: 1px;
     border-bottom: 2px solid black;
+}
+.inner3 {
+    width: 145px;
+    height: 1px;
+    border-bottom: 2px solid black;
+}
+.inner4 {
+    width: 245px;
+    height: 1px;
+    border-bottom: 2px solid black;
+}
+.copyright {
+    background-color: #60d0ac;
+    padding: 12px 0;
+    font-size:18px;
+  }
+  .main:hover #Library{
+    transform: scale(1.1);
+    transition: all 0.9s ease-in;
+  }
+.font-like{
+    font-size: 0.76rem;
 }

@@ -147,18 +147,18 @@ a:hover {
 }
 .speaker-bt{
   border: 2px solid;
-  width: 47%;
+  width: 70%;
   text-align: center;
   font-size: 21px;
   font-weight: 600;
   text-transform: uppercase;
-  margin-left: auto;
+  margin: auto;
   padding: 10px;
   height: 85px;
 }
 .speaker-bt-1{
   border: 2px solid;
-  width: 47%;
+  width: 70%;
   text-align: center;
   font-size: 21px;
   font-weight: 600;
@@ -169,11 +169,11 @@ a:hover {
 }
 .speaker-bt-2{
   border: 2px solid;
-  width: 47%;
+  width: 70%;
   text-align: center;
   font-size: 21px;
   font-weight: 600;
-  margin-right: auto;
+  margin: auto;
   text-transform: uppercase;
   padding: 10px;
   height: 85px;
@@ -316,7 +316,7 @@ input.forum-search {
     left: 25%;
 }
 .shape-txt{
-  font-size: 24px;
+  font-size: 22px;
   margin-top: 8rem;
 }
 span.one {
@@ -364,7 +364,7 @@ span.one {
 }
 
 .pricing .card-price {
- background-color: #60d0ac;
+ background-color: #5bb498;
     border-radius: 50%;
     width: 50%;
     height: 130px;

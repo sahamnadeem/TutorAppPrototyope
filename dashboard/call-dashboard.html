@@ -12,16 +12,18 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/steps.css" />
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+
     <title>Index Tutor</title>
 </head>
 
 <body>
     <!--------------------------------------------------------MAin Setion---------------------------------------------->
-    <section class=" bg-light">
-        <div class="container  bg-light  ">
+    <section class=" bg-light" >
+        <div class="container bg-light">
             <div class="row justify-content-center mb-2">
                 <!-------------------------------------------------------------colloum2------------------------------------------->
-                <div class="col-md-3 mt-4 bg-white  border-curve shadow-card overflow-hidden">
+                <div class="col-md-3 mt-2 bg-main  border-curve shadow-card overflow-hidden" style="height: 97vh;">
                     <div class="row bg-main p-3">
                         <div class="col-4">
                             <div class="text-center">
@@ -32,7 +34,7 @@
                             <h4 class="text-white mt-2">John Doe</h4>
                         </div>
                     </div>
-                    <div class="row bg-card-1  pt-3">
+                    <!-- <div class="row bg-card-1  pt-3">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12">
@@ -67,7 +69,6 @@
 
                     </div>
                     <div>
-                        <!-------------1st msg-->
                         <div class="row margin-row justify-content-center bg-light border-curve p-1 mt-2">
                             <div class="col-7">
                                 <img class="p-1" src="images/play.png" width="30">
@@ -79,7 +80,6 @@
                             </div>
                             </div>
                         </div>
-                        <!--------videooo 2-->
                         <div class="row margin-row justify-content-center bg-light border-curve p-1 mt-3 ">
                             <div class="col-7 bg-main border-curve">
                                 <img class="p-1" src="images/stop.png" width="30">
@@ -114,27 +114,110 @@
                             </div>
                         </div>
                        
-                    </div>
+                    </div> -->
+                   
+                   <div class="row bg-white pb-5">
+                       <div class="col-md-12">
+                           <div class="text-center">
+                               <h1 class="mt-5 mb-5"  id="display">00:00:00</h1>
+                               <img class="pointr"  src="images/resume.png" width="40" onclick="Stopstart()">
+                               <img class="ml-3 pointr" src="images/play (2).png" width="60" id="startStop" onclick="startStop(  )">
+                               <img class="ml-3 pointr" src="images/stop (2).png" width="40"  id="reset" onclick="reset( )">
+                           </div>
+                       </div>
+                   </div>
+                   <div class="row " >
+                       <div class="col-md-12">
+                           <div class="container text-white">
+                          <div class="row mt-3">
+                              <div class="col-6">
+                                  <div class="text-right">
+                                      <h4 style="font-weight: 700 !important;" >Start Time</h4>
+                                  </div>
+                              </div>
+                              <div class="col-6">
+                                <div class="text-right">
+                                    <h4  style="font-weight: 700 !important;">End Time</h4>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="row mt-2 pb-2">
+                            <div class="col-6">
+                                <img src="images/Vector Smart Object.png" width="15"> 
+                                <span class="float-right mr-2">15:03:40</span>
+                            </div>
+                            <div class="col-6">
+                              <div class="text-right">
+                                  <h4 class="mr-2">15:03:40</h4>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2 pb-2" style="border-top: 1px solid white;">
+                            <div class="col-6">
+                                <img src="images/Vector Smart Object.png" width="15"> 
+                                <span class="float-right mr-2">15:03:40</span>
+                            </div>
+                            <div class="col-6">
+                              <div class="text-right">
+                                  <h4 class="mr-2">15:03:40</h4>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2 pb-2" style="border-top: 1px solid white;">
+                            <div class="col-6">
+                                <img src="images/Vector Smart Object.png" width="15"> 
+                                <span class="float-right mr-2">15:03:40</span>
+                            </div>
+                            <div class="col-6">
+                              <div class="text-right">
+                                  <h4 class="mr-2">15:03:40</h4>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2 pb-2" style="border-top: 1px solid white;">
+                            <div class="col-6">
+                                <img src="images/Vector Smart Object.png" width="15"> 
+                                <span class="float-right mr-2">15:03:40</span>
+                            </div>
+                            <div class="col-6">
+                              <div class="text-right">
+                                  <h4 class="mr-2">15:03:40</h4>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2 pb-2" style="border-top: 1px solid white;">
+                            <div class="col-6">
+                                <img src="images/Vector Smart Object.png" width="15"> 
+                                <span class="float-right mr-2">15:03:40</span>
+                            </div>
+                            <div class="col-6">
+                              <div class="text-right">
+                                  <h4 class="mr-2">15:03:40</h4>
+                              </div>
+                            </div>
+                        </div>
+                        </div>
+                       </div>
+                   </div>
                     <br>
                     <br>
                     <br>
                     <br>
-
-                    <hr class="border-t">
-                    <div class="row">
-                        <div class="col-12">
-                            <h5 class="text-center">01:30</h5>
+<!-- 
+                    <div class="row"  >
+                        <div class="col-12 border-t p-1 " style="position: absolute; bottom: 0; ">
+                            <h5 class="text-center ">01:30</h5>
                             <div class="text-center">
                                 <a href="#"> <img class="mb-2" src="images/recordingmic.png" width="45"></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="col-md-5 mr-4 ml-4 mt-4   border-curve  overflow-hidden p-0">
+                <div class="col-md-5 mr-4 ml-4 mt-2   border-curve  overflow-hidden p-0"  >
                     <div class="row bg-main p-3">
                         <div class="col-3">
                             <div class="text-right">
-                                <img src="images/profileavatar.png" width="50">
+                                <img src="images/profileavatar.png" width="50" >
                             </div>
                         </div>
                         <div class="col-5">
@@ -146,7 +229,7 @@
                             </div>
                         </div>
                     </div>
-                    <img class="img-fluid" src="images/videocallperson.png">
+                    <img class="img-fluid" src="images/videocallperson.png" width="auto" >
                     <div class="row bg-main mt-5 mb-3 m-1" style="border-radius: 50px;">
                         <div class="col-12 ">
                             <div class="text-center">
@@ -157,7 +240,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mt-4 bg-white  border-curve shadow-card overflow-hidden">
+                <div class="col-md-3 mt-2 bg-white  border-curve shadow-card overflow-hidden"  style="height: 97vh;">
                     <div class="row bg-main p-3">
                         <div class="col-12">
                             <h4 class="text-white text-center mt-2">Chat</h4>
@@ -210,15 +293,14 @@
                     <br>
                     <br>
                     <br>
-                    <hr class=" border-t " style="padding: 0 !important;">
-                    <div class="row justify-content-center  mt-2  ">
-                        <div class="col-9 p-1">
+                    <div class="row justify-content-center  mt-2 w-100  border-t pt-4 " style="position: absolute; bottom: 10px; ">
+                        <div class="col-9 p-2">
                             <div class="input-group">
-                                <textarea class="form-control comment-box   bg-card-1" style=" height: 2rem;"
+                                <textarea class="form-control comment-box   bg-card-1 p-1" style=" height: 2.1rem;"
                                     placeholder="Write a message here.." aria-label="With textarea"></textarea>
                             </div>
                         </div>
-                        <div class="col-2 p-1">
+                        <div class="col-2 p-2">
                             <a href="#"><img src="images/send.png" width="30"></a>
                         </div>
                     </div>
