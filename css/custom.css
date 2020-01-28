@@ -235,7 +235,7 @@ input.forum-search {
 }
 .in-favour-text{
   width: 50%;
-  background-color: #d75a4a;
+  background-color: #60d0ac;
   color: white;
   text-align: right;
   padding: 10px;
@@ -243,7 +243,7 @@ input.forum-search {
 }
 .against-text{
   width: 50%;
-  background-color: #60d0ac;
+  background-color: #d75a4a;
   color: white;
   padding: 10px;
   font-size: 2rem;

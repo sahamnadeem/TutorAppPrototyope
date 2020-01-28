@@ -38,6 +38,15 @@ p { word-spacing: -1px;}
 	background-image: url(../images/hubbg.png);
     background-size: 100% 100% !important;
 }
+.res-section{
+	background-image: url(../images/bgres.png);
+    background-size: 100% 100% !important;
+}
+.cat-section{
+	background-image: url(../images/Close-up-of-Woman-Typing.png);
+    background-size: 100% 100% !important;
+
+}
 .personalized-coaching img{
 	display: block;
 	margin-right: auto;
@@ -198,6 +207,13 @@ p { word-spacing: -1px;}
     -o-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
+}
+.hub-img2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 /*--------------------- Pricing page end--------------------*/
 @media (max-width: 1200px){
@@ -1002,3 +1018,96 @@ form.example input[type=text] {
 .font-like{
     font-size: 0.76rem;
 }
+.bg-fav{
+    background-color: #60d0ac !important;
+}
+.bg-agai{
+    background-color: #d75a4a;
+}
+.bg-passion{
+    background-color: #60d0ac !important;
+    border: 2px solid #60d0ac;
+    color: white;
+}
+.contact-footer{
+    font-size: 1.1em !important;
+    font-weight: 600;
+}
+.margin-cat{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.margin-cat-2{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+
+}
+.card-font{
+    font-size: 0.9em;
+}
+.main-img{
+    position: relative;
+     top: 0;
+     left: 0;
+}
+.prof-img{
+    position: absolute; 
+    bottom: -25px;
+     right: 5%;
+}
+.btn-course-search{
+    background-color: #60d0ac;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 26px;
+    border-radius: 10px;
+}
+ /*slik slider  */
+ .slider {
+    width: 100%;
+    margin: 40px auto;
+  }
+  
+  .slick-slide {
+  margin: 0px 20px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+  color: #69d2b1 !important;
+  }
+  .slick-next:before{
+      margin-left: 1rem !important;
+  }
+  .slick-prev:before{
+    margin-left: -2rem !important;
+
+  }
+  .slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: 1;
+  }
+  
+  .slick-active {
+  opacity: 1;
+  }
+  
+  .slick-current {
+  opacity: 02;
+  }
+  /*slik slider end  */
+  @media (max-width: 768px){
+    .slick-next:before{
+        margin-left: auto !important;
+    }
+    .slick-prev:before{
+      margin-left: auto !important;
+  
+    }  
+    .slider {
+        width: 90%;
+        margin: 40px auto;
+      }
+      
+  }
